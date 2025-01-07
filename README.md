@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0f059d37-408c-4fdd-890c-ecc081af24ce)
+![Screenshot 2025-01-07 154643](https://github.com/user-attachments/assets/0e441899-52d6-4a0d-901d-de90f6f2c8a0)
 
 
 ## Tecnologias Utilizadas
