@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Darker Grotesque', serif;
+}
+
+body {
+  background-color: #000;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 50px;
+  color: #ffffff;
+}
+
+.navbar {
+  width: 302px;
+  display: flex;
+  flex-direction: column;
+  gap: 250px;
+}
+
+.navbar h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #807373;
+}
+
+section.fotos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+section h2:hover {
+  cursor: pointer;
+  color: #807373;
+  transition: 0.3s;
+}
+
+.container {
+  width: 1400px;
+  height: 601px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+}
+
+.container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+}
+
+.images {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#image1 {
+  background-image: url('../../images/image1.png');
+}
+
+#image2 {
+  background-image: url('../../images/image2.jpg');
+}
+
+#image3 {
+  background-image: url('../../images/image3.jpg');
+}
+
+#image4 {
+  background-image: url('../../images/image4.jpg');
+}
+
+#image5 {
+  background-image: url('../../images/image5.jpg');
+}
+
+#image6 {
+  background-image: url('../../images/image6.jpg');
+}
